@@ -41,9 +41,7 @@ WhatsappButton.propTypes = { //se define de que tipo seran las props que recibir
 }
 
 WhatsappButton.defaultProps = { //valores que se le dara por defecto al componente en caso de que en el store-theme se declare el bloque pero no se le pase ningunas props
-  logo: 'logo-ejemplo',
-  phone: '3163042458',
-  message: 'Estas comunicandote con VTEX, por favor deja tu mensaje'
+  message: '¡Hello! I want more information'
 }
 
 WhatsappButton.schema = { //forma de declarar un esquema de un componente, esto es utilizado para que en el site editor podamos realizar cambios sin necesidad de utilizar codigo
