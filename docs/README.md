@@ -6,7 +6,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- DOCS-IGNORE:end -->
 
-The WhatsApp Button component allows customers to directly contact the e-commerce by sending a message to a whatsapp number regarding any doubt, question or even to proceed to purchase some product. To execute the component the customer have to press the button that will redirect him to the whatsapp application.
+The WhatsApp Button component allows customers to directly contact the e-commerce by sending a message to a whatsapp number regarding any doubt, question or even to proceed to purchase some product. To execute the component the customer has to press the button that will redirect him to the whatsapp application.
 
 <img src="../react/assets/whatsapp-button.png" width="auto"/> 
 
@@ -53,7 +53,7 @@ Check all props to configure the block in the table below:
 
 | Prop name    | Type            | Description    | Default value                                                                                                                               |
 | ------------ | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | 
-| `logo`      | `string`       | ![https://img.shields.io/badge/-Mandatory-red](https://img.shields.io/badge/-Mandatory-red)The logo parameter defines the whatsapp icon that the component will render. Define the path of icon as value of the parameter. | `undefined`        |
+| `logo`      | `string`       | ![https://img.shields.io/badge/-Mandatory-red](https://img.shields.io/badge/-Mandatory-red)The logo parameter defines the whatsapp icon that the component will render. Define the path of the icon as the value of this parameter. | `undefined`        |
 | `phone`      | `string`       | ![https://img.shields.io/badge/-Mandatory-red](https://img.shields.io/badge/-Mandatory-red)Phone parameter establish the whatsapp number that the customer will be redirect once he press the component. It is important to mention that before the whatsapp number, the calling code of the country must be declared. E.g. "+573152768890" where "+57" is the numerical code of Colombia.  | `undefined`        |
 | `message`      | `string`       | Message parameter defines the default message that customers will see and be able to send when entering the whatsapp chat, however, it can be edited by the customer | `¡Hello! I want more information`        |
 
