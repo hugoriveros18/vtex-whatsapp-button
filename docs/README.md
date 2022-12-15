@@ -19,7 +19,7 @@ In your theme's `manifest.json`, add the Whatsapp Button app as a dependency:
 
 ```json
   "dependencies": {
-    "vendor.whatsapp-button": "0.x"
+    "itgloberspartnercl.whatsapp-button": "0.x"
   }
 ```
 
